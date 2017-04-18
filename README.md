@@ -1,1 +1,2 @@
-# bc-kam-1
+The function uses the sieve of erastostheness to generate prime numbers between 0 and n.
+the time taken to generate prime numbers between 2 to 200 is not the same as the time taken to generate prime numbers between 2 and 2500.
