@@ -1,4 +1,5 @@
 import unittest
+from prime_number_generator import generate_prime_numbers
 
 class TestPrimeNumberGenerator(unittest.TestCase):
 
@@ -10,3 +11,6 @@ class TestPrimeNumberGenerator(unittest.TestCase):
 
     def test_prime_numbers(self):
         self.assertEqual(generate_prime_numbers(10),[2,3,5,7])
+
+if __name__ == '__main__':
+    unittest.main()
